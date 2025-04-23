@@ -1,4 +1,4 @@
-#include <solution.h>
+#include <1768_solution.h>
 
 namespace s2 {
 
