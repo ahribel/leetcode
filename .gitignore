@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# Meson
+**/buildDir/
+/subprojects/googletest-1.15.2/
+/subprojects/packagecache/
+
+# Clion
+**/.idea/
