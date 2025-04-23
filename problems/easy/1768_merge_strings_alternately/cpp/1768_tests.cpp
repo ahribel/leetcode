@@ -8,13 +8,13 @@ class MergeAlternatelyTest : public ::testing::Test {};
 
 struct Sol1 {
     static string run(string a, string b) {
-        return s1::mergeAlternately(a, b);
+        return s1::mergeAlternately(move(a), move(b));
     }
 };
 
 struct Sol2 {
     static string run(string a, string b) {
-        return s2::mergeAlternately(a, b);
+        return s2::mergeAlternately(move(a), move(b));
     }
 };
 
