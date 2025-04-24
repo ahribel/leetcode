@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "1768_solution.h"
+#include "solution_1768.h"
 
 using namespace std;
 
@@ -12,13 +12,7 @@ struct Sol1 {
     }
 };
 
-struct Sol2 {
-    static string run(string a, string b) {
-        return s2::mergeAlternately(move(a), move(b));
-    }
-};
-
-using Implementations = ::testing::Types<Sol1, Sol2>;
+using Implementations = ::testing::Types<Sol1>;
 TYPED_TEST_SUITE(MergeAlternatelyTest, Implementations);
 
 TYPED_TEST(MergeAlternatelyTest, BasicCases) {

@@ -1,4 +1,4 @@
-#include <1768_solution.h>
+#include "solution_1768.h"
 
 namespace s1 {
 

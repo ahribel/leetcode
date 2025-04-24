@@ -1,13 +1,12 @@
 # Sources
 srcs = [
-    '1768_tests.cpp',
-    '1768_solution1.cpp',
-    '1768_solution2.cpp',
+    'tests_1768.cpp',
+    'solution_1768_a.cpp'
 ]
 
-# Include current dir so 1768_solution.h is visible
+# Include current dir so solution_1768.h is visible
 test_exe = executable(
-    '1768_tests',
+    'tests_1768',
     srcs,
     dependencies: [gtest_main_dep, gmock_main_dep]
 )
