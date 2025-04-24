@@ -5,12 +5,11 @@ srcs = [
     '1768_solution2.cpp',
 ]
 
-# Include current dir so solution.h is visible
+# Include current dir so 1768_solution.h is visible
 test_exe = executable(
     '1768_tests',
     srcs,
-    dependencies: [gtest_main_dep, gmock_main_dep],
-    include_directories: include_directories('.')
+    dependencies: [gtest_main_dep, gmock_main_dep]
 )
 
-test('1768 merge strings', test_exe)
+test('1768 merge strings alternately', test_exe)

@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "solution.h"
+#include "1768_solution.h"
 
 using namespace std;
 
