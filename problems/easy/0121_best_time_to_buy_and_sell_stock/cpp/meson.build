@@ -1,5 +1,5 @@
 srcs = [
-    'solution1_0121.cpp',
+    'solution_0121_a.cpp',
     'tests_0121.cpp'
 ]
 
