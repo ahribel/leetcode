@@ -7,7 +7,7 @@ gtest_proj = subproject('gtest')
 gtest_main_dep = gtest_proj.get_variable('gtest_main_dep')
 gmock_main_dep = gtest_proj.get_variable('gmock_main_dep')
 
-
 # Add each problem manually (or loop/glob if needed)
 subdir('problems/easy/1768_merge_strings_alternately/cpp')
 subdir('problems/easy/0121_best_time_to_buy_and_sell_stock/cpp')
+subdir('problems/medium/0122_best_time_to_buy_and_sell_stock_2/cpp')
