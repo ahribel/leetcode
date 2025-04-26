@@ -21,11 +21,17 @@ struct SolA {
 
 struct SolB {
     static int run(vector<int>& nums) {
-        return solutionA::majorityElement(nums);
+        return solutionB::majorityElement(nums);
     }
 };
 
-using Implementations = ::testing::Types<SolA, SolB>;
+struct SolC {
+    static int run(vector<int>& nums) {
+        return solutionC::majorityElement(nums);
+    }
+};
+
+using Implementations = ::testing::Types<SolA, SolB, SolC>;
 TYPED_TEST_SUITE(MajorityElementTest, Implementations);
 
 TYPED_TEST(MajorityElementTest, BaseCases) {

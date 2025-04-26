@@ -1,6 +1,7 @@
 srcs = [
     'solution_0169_a.cpp',
     'solution_0169_b.cpp',
+    'solution_0169_c.cpp',
     'tests_0169.cpp',
 ]
 
