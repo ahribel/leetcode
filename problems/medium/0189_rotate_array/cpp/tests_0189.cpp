@@ -32,7 +32,13 @@ struct SolC {
     }
 };
 
-using Implementations = ::testing::Types<SolA, SolB, SolC>;
+struct SolD {
+    static void run(vector<int> &nums, int k) {
+        solutionB::rotate(nums, k);
+    }
+};
+
+using Implementations = ::testing::Types<SolA, SolB, SolC, SolD>;
 TYPED_TEST_SUITE(RotateArrayTest, Implementations);
 
 TYPED_TEST(RotateArrayTest, BaseCases) {
