@@ -4,6 +4,7 @@ srcs = [
     'solution_0189_b.cpp',
     'solution_0189_c.cpp',
     'solution_0189_d.cpp',
+    'solution_0189_e.cpp',
 ]
 
 test_exe = executable(
