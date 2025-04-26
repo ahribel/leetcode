@@ -28,19 +28,19 @@ struct SolB {
 
 struct SolC {
     static void run(vector<int> &nums, int k) {
-        solutionB::rotate(nums, k);
+        solutionC::rotate(nums, k);
     }
 };
 
 struct SolD {
     static void run(vector<int> &nums, int k) {
-        solutionB::rotate(nums, k);
+        solutionD::rotate(nums, k);
     }
 };
 
 struct SolE {
     static void run(vector<int> &nums, int k) {
-        solutionB::rotate(nums, k);
+        solutionE::rotate(nums, k);
     }
 };
 
