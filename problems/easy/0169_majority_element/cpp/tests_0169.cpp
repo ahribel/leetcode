@@ -19,7 +19,13 @@ struct SolA {
     }
 };
 
-using Implementations = ::testing::Types<SolA>;
+struct SolB {
+    static int run(vector<int>& nums) {
+        return solutionA::majorityElement(nums);
+    }
+};
+
+using Implementations = ::testing::Types<SolA, SolB>;
 TYPED_TEST_SUITE(MajorityElementTest, Implementations);
 
 TYPED_TEST(MajorityElementTest, BaseCases) {

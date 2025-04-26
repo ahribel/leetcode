@@ -1,4 +1,8 @@
-srcs = ['solution_0169_a.cpp', 'tests_0169.cpp']
+srcs = [
+    'solution_0169_a.cpp',
+    'solution_0169_b.cpp',
+    'tests_0169.cpp',
+]
 
 test_exe = executable(
     'tests_0169',

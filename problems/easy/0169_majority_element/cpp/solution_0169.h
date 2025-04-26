@@ -12,4 +12,8 @@ namespace solutionA {
     int majorityElement(vector<int>& nums);
 }
 
+namespace solutionB {
+    int majorityElement(vector<int>& nums);
+}
+
 #endif //SOLUTION_0169_H
