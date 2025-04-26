@@ -8,4 +8,8 @@ namespace solutionA {
     void rotate(vector<int>& nums, int k);
 }
 
+namespace solutionB {
+    void rotate(vector<int>& nums, int k);
+}
+
 #endif
