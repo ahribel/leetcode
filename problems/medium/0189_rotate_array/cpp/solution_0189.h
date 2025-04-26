@@ -12,4 +12,8 @@ namespace solutionB {
     void rotate(vector<int>& nums, int k);
 }
 
+namespace solutionC {
+    void rotate(vector<int>& nums, int k);
+}
+
 #endif
