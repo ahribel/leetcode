@@ -18,5 +18,6 @@ subdir('problems/easy/0088_merge_sorted_array/cpp')
 subdir('problems/easy/0026_remove_duplicates_from_sorted_array/cpp')
 subdir('problems/medium/0080_remove_duplicates_from_sorted_array_2/cpp')
 subdir('problems/easy/0283_move_zeroes/cpp')
+subdir('problems/medium/0209_minimum_size_subarray_sum/cpp')
 subdir('problems/medium/0011_container_with_most_water/cpp')
 
